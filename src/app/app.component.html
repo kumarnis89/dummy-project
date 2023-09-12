@@ -6,3 +6,13 @@
 <!-- <app-header [headerMessage]="parentMessage"></app-header> -->
 
 <app-tab-list></app-tab-list>
+
+
+<!-- this is the place where component with routing mechanism will be loaded -->
+<div>
+    <a routerLink="/router-example/first" routerLinkActive="active" ariaCurrentWhenActive="page">click to navigate to first component</a>
+</div>
+<div>
+    <a routerLink="/router-example/second" routerLinkActive="active" ariaCurrentWhenActive="page">click to navigate to second component</a>
+</div>
+<router-outlet></router-outlet>

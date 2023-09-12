@@ -14,7 +14,7 @@ import { TabModuleModule } from './tab-module/tab-module.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TabModuleModule
+    TabModuleModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
